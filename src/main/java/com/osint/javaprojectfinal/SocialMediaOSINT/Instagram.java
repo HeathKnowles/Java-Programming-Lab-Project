@@ -20,7 +20,7 @@ public class Instagram {
         try {
             HttpResponse<String> response = Unirest.get("https://instagram-scraper-api2.p.rapidapi.com/v1/info")
                     .queryString("username_or_id_or_url", instagramData)
-                    .header("X-RapidAPI-Key", "3a9e1fdf4amsh636a8f7d3d9e7f2p138cbejsnb9c4ab351096")
+                    .header("X-RapidAPI-Key", "RAPID_API_KEY")
                     .header("X-RapidAPI-Host", "instagram-scraper-api2.p.rapidapi.com")
                     .asString();
 
