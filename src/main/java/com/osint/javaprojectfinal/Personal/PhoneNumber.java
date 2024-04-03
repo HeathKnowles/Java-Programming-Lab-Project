@@ -19,7 +19,7 @@ public class PhoneNumber {
         try {
             // Make the API call
             HttpResponse<String> response = Unirest.get("https://whatsapp-osint.p.rapidapi.com/wspic/dck?phone="+phoneNumber)
-	.header("X-RapidAPI-Key", "3a9e1fdf4amsh636a8f7d3d9e7f2p138cbejsnb9c4ab351096")
+	.header("X-RapidAPI-Key", "RAPID_API_KEY")
 	.header("X-RapidAPI-Host", "whatsapp-osint.p.rapidapi.com")
 	.asString();
 
