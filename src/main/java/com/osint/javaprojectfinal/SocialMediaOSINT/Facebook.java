@@ -18,7 +18,7 @@ public class Facebook {
             // Make the API call
             HttpResponse<String> response = Unirest.post("https://facebook-profil-scraper.p.rapidapi.com/fba")
                 .header("content-type", "application/x-www-form-urlencoded")
-                .header("X-RapidAPI-Key", "3a9e1fdf4amsh636a8f7d3d9e7f2p138cbejsnb9c4ab351096")
+                .header("X-RapidAPI-Key", "RAPID_API_KEY")
                 .header("X-RapidAPI-Host", "facebook-profil-scraper.p.rapidapi.com")
                 .body("id=" + facebookData)
                 .asString();
