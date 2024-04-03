@@ -19,7 +19,7 @@ public class IPApiQuery {
 
             // Send the IP address to the API using Unirest
             HttpResponse<String> response = Unirest.get("https://ip-iq.p.rapidapi.com/ip?ip=" + ipAddress)
-                    .header("X-RapidAPI-Key", "3a9e1fdf4amsh636a8f7d3d9e7f2p138cbejsnb9c4ab351096")
+                    .header("X-RapidAPI-Key", "RAPID_API_KEY")
                     .header("X-RapidAPI-Host", RAPID_API_HOST)
                     .asString();
 
