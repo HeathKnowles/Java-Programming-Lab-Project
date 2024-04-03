@@ -18,7 +18,7 @@ public class Email {
             // Make the API call
             String apiUrl = "https://validect-email-verification-v1.p.rapidapi.com/v1/verify?email="+emailData;
             HttpResponse<String> response = Unirest.get(apiUrl)
-                    .header("X-RapidAPI-Key", "3a9e1fdf4amsh636a8f7d3d9e7f2p138cbejsnb9c4ab351096")
+                    .header("X-RapidAPI-Key", "RAPID_API_KEY")
                     .header("X-RapidAPI-Host", "validect-email-verification-v1.p.rapidapi.com")
                     .asString();
 
